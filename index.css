@@ -1,0 +1,18 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    background-color: #333;
+    color: #EEE;
+    font-size: 6vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width: 769px) {
+    p {
+        font-size: 4rem;
+    }
+}
